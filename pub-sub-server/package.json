@@ -1,0 +1,18 @@
+{
+  "name": "pub-sub-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Heebs and Bread",
+  "license": "MIT",
+  "dependencies": {
+    "collections": "^5.1.5",
+    "express": "^4.16.4",
+    "hashmap": "^2.3.0",
+    "prompt": "^1.0.0",
+    "request": "^2.88.0"
+  }
+}

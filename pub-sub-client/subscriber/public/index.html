@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Subscriber</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js"></script>
+</head>
+
+<h1>
+  <center>こんにちは！</center>
+</h1>
+<h2>
+  <center>Project 2 | Subscriber</center>
+</h2>
+<div id="description">
+  <h3>Feed</h3>
+  <p>You are subscribed to [publisher ID]</p>
+</div>
+<div id="input">
+  <input id="code" type="text" value="Enter publisher ID to subscriber to." />
+  <button id="execute" type="button" name="">Subscribe</button>
+</div>
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('#execute').click(function () {
+      var expression = $('#code').val();
+
+      try {
+        alert(eval(expression));
+      }
+      catch (e) {
+        alert("Invalide JS expression.")
+      }
+    });
+  });
+</script>
+
+</html>

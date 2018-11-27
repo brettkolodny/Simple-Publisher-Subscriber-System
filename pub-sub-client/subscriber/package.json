@@ -1,0 +1,16 @@
+{
+  "name": "subscriber",
+  "version": "1.0.0",
+  "description": "Express app for the client",
+  "main": "subscriber.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Heebs and Bread",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "prompt": "^1.0.0",
+    "robotjs": "^0.5.1"
+  }
+}
